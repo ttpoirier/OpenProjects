@@ -7,3 +7,6 @@ C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMy
 C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.csproj.GenerateResource.Cache
 C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.exe
 C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.pdb
+C:\Users\tpoirier\Source\Repos\OpenProjects\ConnectMyStuff\ConnectMyStuff\bin\Debug\ConnectMyStuff.exe.config
+C:\Users\tpoirier\Source\Repos\OpenProjects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.exe
+C:\Users\tpoirier\Source\Repos\OpenProjects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.pdb

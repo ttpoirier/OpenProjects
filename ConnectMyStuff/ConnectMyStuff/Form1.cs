@@ -44,14 +44,57 @@ namespace ConnectMyStuff
             }
         }
 
+        public bool IsDigitsOnly(string str)
+        {
+            foreach (char c in str)
+            {
+                if (c < '0' || c > '9')
+                    return false;
+            }
+
+            return true;
+        }
+
         private void btnFind_Click(object sender, EventArgs e)
         {
             var userZipCode = txtZipCode.Text;
+            var isValid = false;
+            List<string> errorMsgs = new List<string>();
 
-            if(userZipCode == "") {
-                MessageBox.Show("Please enter a ZipCode", "Invalid ZipCode", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //check zip code
+            if (userZipCode.Length == 5) 
+            {
+                if (IsDigitsOnly(userZipCode))
+                {
+                    isValid = true;
+                }
+                else
+                {
+                    errorMsgs.Add("Zip Code contains invalid characters!");
+                }
             }
-            else {
+            else
+            {
+                errorMsgs.Add("Zip Code supplied was not the correct length.");
+            }
+
+
+            if (!isValid)
+            {
+                if (errorMsgs.Count > 0)
+                {
+                    foreach (string msg in errorMsgs)
+                    {
+                        MessageBox.Show(msg, "Invalid Zip Code", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Invalid exception: Error caught.", "Error Caught", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
                 var station = new Station(System.Guid.NewGuid());
                 txtDistance.Text = station.GetDistanceFromTarget().ToString();
                 txtGasPrice.Text = station.GetPrice().ToString();
