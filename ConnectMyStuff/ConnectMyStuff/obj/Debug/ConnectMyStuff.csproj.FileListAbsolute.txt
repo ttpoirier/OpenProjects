@@ -1,0 +1,9 @@
+c:\users\tpoirier\documents\visual studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\bin\Debug\ConnectMyStuff.exe.config
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\bin\Debug\ConnectMyStuff.exe
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\bin\Debug\ConnectMyStuff.pdb
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.csprojResolveAssemblyReference.cache
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.Form1.resources
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.Properties.Resources.resources
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.csproj.GenerateResource.Cache
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.exe
+C:\Users\tpoirier\Documents\Visual Studio 2013\Projects\ConnectMyStuff\ConnectMyStuff\obj\Debug\ConnectMyStuff.pdb
