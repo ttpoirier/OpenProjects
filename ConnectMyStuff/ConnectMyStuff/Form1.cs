@@ -21,6 +21,7 @@ namespace ConnectMyStuff
         {
             public string stationName { get; set; }
             public string streetAddress { get; set; }
+            public string requestDateTime { get; set; }
             public float gasPrice { get; set; }
             public float distance { get; set; }
             public int ranking { get; set; }
@@ -96,8 +97,11 @@ namespace ConnectMyStuff
             else
             {
                 var station = new Station(System.Guid.NewGuid());
+
+
                 txtDistance.Text = station.GetDistanceFromTarget().ToString();
                 txtGasPrice.Text = station.GetPrice().ToString();
+                MessageBox.Show("Value Found", "Value Found", MessageBoxButton.OK, MessageBoxIcon.Information);
             }
         }
 
